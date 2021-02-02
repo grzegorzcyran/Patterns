@@ -1,5 +1,7 @@
 package edu.grcy.patterns.creational.singleton;
 
+//Bill Bugh wymyślił singleton na klasie wewnętrznej prywatnej
+//w czasach przed Javą6
 public class BillPughSingleton {
 
 	private BillPughSingleton() {

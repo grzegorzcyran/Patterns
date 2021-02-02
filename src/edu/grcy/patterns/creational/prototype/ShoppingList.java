@@ -8,6 +8,7 @@ public class ShoppingList implements Cloneable{
 
 	public ShoppingList(){
 		shoppingList = new ArrayList<>();
+		loadData();
 	}
 
 	public ShoppingList(List<String> list){
@@ -15,9 +16,14 @@ public class ShoppingList implements Cloneable{
 	}
 
 	public void loadData(){
-		shoppingList.add("ser");
+		shoppingList.add("ser żółty");
+		shoppingList.add("szyneczka");
 		shoppingList.add("pomidory");
 		shoppingList.add("chleb");
+	}
+
+	public void setShoppingList(List<String> shoppingList) {
+		this.shoppingList = shoppingList;
 	}
 
 	public List<String> getShoppingList() {
@@ -27,9 +33,8 @@ public class ShoppingList implements Cloneable{
 	@Override
 	public Object clone() throws CloneNotSupportedException{
 		List<String> temp = new ArrayList<>();
-		for(String s : this.getShoppingList()){
-			temp.add(s);
-		}
+
+		temp.addAll(shoppingList);
 		return new ShoppingList(temp);
 	}
 }
