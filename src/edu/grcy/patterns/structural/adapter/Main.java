@@ -8,6 +8,7 @@ public class Main {
 		Jeep jeep = new Jeep("Renegade", 110);
 
 		System.out.println(jeep.getName() + " max speed: " + jeep.getSpeed());
+		System.out.println(volvo.getName() + " max speed: " + volvo.getSpeed());
 		System.out.println(jeep.getName() + " max speed for Europe: " + jeep.getSpeedKMH());
 	}
 }

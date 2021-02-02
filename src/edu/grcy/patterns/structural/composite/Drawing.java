@@ -6,7 +6,7 @@ import java.util.List;
 public class Drawing implements Shape{
 
 	//collection of Shapes
-	private List<Shape> shapes = new ArrayList<Shape>();
+	private List<Shape> shapes = new ArrayList<>();
 
 	@Override
 	public void draw(String fillColor) {
@@ -14,6 +14,7 @@ public class Drawing implements Shape{
 		{
 			sh.draw(fillColor);
 		}
+		System.out.println("Finally drawing picture with color " + fillColor);
 	}
 
 	//adding shape to drawing
