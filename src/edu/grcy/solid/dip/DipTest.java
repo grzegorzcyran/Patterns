@@ -5,5 +5,6 @@ public class DipTest {
         TaskService service = new TaskService();
         service.addTask("SampleFile.txt");
         service.removeTask("OtherFile.txt");
+        System.out.println("aaa");
     }
 }
