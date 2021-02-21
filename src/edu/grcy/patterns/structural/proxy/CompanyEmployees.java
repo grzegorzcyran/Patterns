@@ -1,12 +1,13 @@
 package edu.grcy.patterns.structural.proxy;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CompanyEmployees {
     static List<String> employees;
 
     public CompanyEmployees() {
-        this.employees = employees;
+        this.employees = new ArrayList<>();
     }
 
     public static boolean isActiveEmployee(String username) {
