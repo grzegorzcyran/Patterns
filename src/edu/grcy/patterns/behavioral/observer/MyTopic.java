@@ -12,6 +12,7 @@ public class MyTopic implements Subject {
 	public MyTopic(){
 		this.observers=new ArrayList<>();
 	}
+
 	@Override
 	public void register(Observer obj) {
 		if(obj == null) throw new NullPointerException("Null Observer");
@@ -43,7 +44,7 @@ public class MyTopic implements Subject {
 
 	//method to post message to the topic
 	public void postMessage(String msg){
-		System.out.println("Message Posted to Topic:"+msg);
+		System.out.println("Message Posted to Topic: "+msg);
 		this.message=msg;
 		this.changed=true;
 		notifyObservers();

@@ -16,7 +16,7 @@ public class AllegroMediator implements Mediator {
     public void addBuyer(Customer customer)
     {
         biddingCustomers.add(customer);
-        System.out.println(customer.name + " was added to" +
+        System.out.println(customer.name + " was added to " +
                 "the buyers list.");
     }
 

@@ -17,6 +17,13 @@ public class Flight {
         if (state instanceof Onboarding) {
             System.out.println("Prepare to start. Passengers walk in");
         }
+        if (state instanceof Takeaway) {
+            System.out.println("Some action when Takeaway");
+        }
         state.updateState(this);
+    }
+
+    public void performAction() {
+        state.performAction(this);
     }
 }
