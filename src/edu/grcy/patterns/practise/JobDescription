@@ -5,7 +5,7 @@ kolekcje, obiekty, equals / hashcode, toString, pliki, może wątki (rzadziej / 
 abstrakcje, interfejsy, SOLID, niektóre wzorce
 
 SPRING
-Spring Boot, Spring MVS, konfiguracja (anotacjami i XML)
+Spring Boot, Spring MVC, konfiguracja (anotacjami i XML)
 
 Hibernate / JPA
 łączenie / współpraca z bazami danych - odczytywanie / zapisywanie obiektów,
@@ -23,7 +23,7 @@ MAVEN (ew. Gradle)
 HTML, CSS, jakiś JS (Angular / React / Vue) - tyle że JS mogą styknąć podstawy
 
 Testy
-JUnit (i AsserJ), czasem inne
+JUnit (i AssertJ), czasem inne
 
 Jakieś IDE (czyli w Waszym wypadku IntelliJ)
 
