@@ -18,3 +18,23 @@ jak zadłużone to -4
 ====================
 
 dodaj możliwość wzięcia kredytu w Rachunku bieżącym
+
+
+
+----------------------------------------
+Zasada "Dziel i zwyciężaj" / "Divide & Conquer"
+Napisać symulację banku
+---
+podzielmy to :
+---
+w banku są konta
+w banku są klienci
+w banku są przepływy pieniądza
+---
+konta
+konto ma numer
+konto ma stan (ile pieniędzy)
+konto ma właściciela
+na konto można dodać pieniędzy
+z konta można wyjąć pieniądze
+--
